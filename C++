@@ -1,2 +1,33 @@
-# Awal-Belajar-C-
-Mulai awal sampai akhir
+C++ Adalah bahasa pemrograman tingkat menengah yang dikembangkan dari C oleh Bjarne Stroustrup, 
+menambahkan fitur pemograman Beriorientasi Objek(OOP) sepert kelas, pewarisan, 
+dan polimorfisme untuk membuat program lebih terstruktur, efisien dan mudah dikelola.
+C++ ideal untuk pengembangan sistem, game, dan aplikasi berkinerja tinggi karena kontrolnya ataas perangkat keras dan memori,
+namun memiliki sintaksis yang kompleks bagi pemula.
+
+untuk memulai C++ anda perlu memahami dasar-dasar seperti header, namespace, fungsi main(), deklarasi variabel, 
+dan struktur kontrol(if, loop, while).
+untuk pemrograman C++ anda bisa memulainya dengan menggunakan Aplikasi(IDE) VS CODE atau Eclipse, dan menggunakan compiler(GCC, Clang).
+
+
+didalam pemrograman 
+
+`#include <iostream>`
+`using namespace std;`
+
+`  int main() {`
+`      cout << "Hello World!";`
+`      return 0;`
+`  }`
+
+`#include` `<iostream>` berfungsi untuk menghubungkan program dengan library input-output standar.
+
+`int` `main()` adalah titik masuk atau gerbang utama program, setiap program harus memiliki satu fungsi `main`.
+  saat program dijalankan, komputer akan mencari fungsi ini dan mulai mengeksekusi perintah dari dalam kurung kurawal `{`.
+  kalau `int` adalah singkatan dari integer yang memiliki fungsi untuk mengembalikan nilai angka bulat ke sistem operasi setelah selesai(biasanya 0).
+
+tanda kurung kurawal `{` dan `}` atau disebut block of code, segala sesuatu di dalam kurung kurawal ini 
+  adalah bagian dari fungsi `main` yang akan dijalankan secara berurutan.
+
+yang terakhir `using namespace std;` digunakan agar kita tidak perlu menulis awalan `std::` berulang-ulang pada setiap perintah input-output.
+ini membuat kode terlihat lebih ringkas, meskipun pada proyek besar profesional, 
+penggunaan `std::` secara langsung disarankan untuk menghindari bentrok nama fungsi
