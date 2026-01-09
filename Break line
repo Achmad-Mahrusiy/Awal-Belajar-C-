@@ -1,0 +1,36 @@
+Dalam `C++`, "`break line`" merujuk pada tindakan memulai baris teks baru dalam output program. 
+Ini dapat dicapai menggunakan karakter escape `\n` atau manipulator output `std::endl`. 
+
+
+yang pertama `\n` ialah escape sequence(urutan escape) yang memaksa kursor berpindah ke awal baris berikutnya pada layar.
+`\n` diperlukan sebagai karakter tunggal pada(berukuran 1 byte) dan dapat digunakan didalm string yang diapit tana petik (" ").
+\n lebih efisien dalam hal performa karena tidak secara otomatis membersihkan buffer output (penyangga output).
+Output akan disimpan sementara dalam buffer dan ditampik=lkan buffer penuh atau program berakhir.
+
+contoh dari `\n` :
+
+`#include <iostream>`
+`using namespace std;`
+
+`int main() {`
+`    cout << "Ini baris pertama.\nIni baris kedua." << endl;`
+`    cout << "Ini baris ketiga.\n";`
+`    return 0;`
+`}`
+
+
+yang kedua adalan `std::endl` adalah manipulator ouput yang, sleain menyisipkan karakter baris baru, juga secara ekspelsit buffer output.
+ini berarti data yang dibuffer segera ditulis ke perangkat ouput (minyalnya, layar konsol).
+
+`std::endl` memastikan output segera ditampilkan, berguna untuk melacak program secara real-time atau saat terjadi error
+
+contoh std::cout;
+
+`#include <iostream>`
+`using namespace std;`
+
+`int main() {`
+`    cout << "Pesan status: " << std::endl; // Output segera ditampilkan`
+`    cout << "Ini baris baru dengan endl." << endl;`
+`    return 0;`
+`}`
