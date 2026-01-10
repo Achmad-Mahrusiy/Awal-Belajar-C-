@@ -1,0 +1,38 @@
+Variabel di C++ adalah nama lokasi penyimpanan di memori komputer yang 
+digunakan untuk menyimpan data, seperti angka teks, atau nilai logika, dimana isinya bisa diubah selama program berjalan.
+
+Setiap variabel harus memiliki tipe data yang menentukan jenis data yan gbisa disimpan, dan harus dideklarasikan sebelum digunakan,
+seringklai dengan sintax `tipe_data` `nama_variabel;`. 
+Variabel penting untuk menyimpan data sementara, manipulasi data, dan membuat kode lebih mudah dibaca.
+
+Berikut tipe data dari C++ :
+
+  `int` : Bilangan bulat.
+  `double` / `float` : Bilangan Desimal.
+  `char` : Karakter tunggal.`
+  `string` : Teks atau kumpulan karakter.
+  `bool` : Nilai logika (`True` atau `False`).
+
+Lingkup Variabel ada dua yaitu 
+  Variabel Lokal: Dideklarasikan di dalam fungsi atau blok {}. Hanya bisa digunakan di dalam blok tersebut.
+  Variabel Global: Dideklarasikan di luar semua fungsi. Dapat diakses dari bagian mana pun dalam kode. 
+
+
+contohnya : 
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  int studentID = 15;
+  int studentAge = 23;
+  float studentFee = 75.25;
+  char studentGrade = 'B';
+
+  cout << "Student ID: " << studentID << "\n";
+  cout << "Student Age: " << studentAge << "\n";
+  cout << "Student Fee: " << studentFee << "\n";
+  cout << "Student Grade: " << studentGrade << "\n";
+
+  return 0;
+}
