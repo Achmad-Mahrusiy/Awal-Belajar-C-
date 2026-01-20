@@ -42,3 +42,12 @@ contoh std::cout;
 `    cout << "Ini baris baru dengan endl." << endl;`
 `    return 0;`
 `}`
+
+
+`#include <iostream>`
+
+`int main() {`
+`    std::cout << "Pesan status: " << std::endl; // Output segera ditampilkan`
+`    std::cout << "Ini baris baru dengan endl." << endl;`
+`    return 0;`
+`}`
