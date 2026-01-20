@@ -18,6 +18,15 @@ contoh dari `\n` :
 `    return 0;`
 `}`
 
+`#include <iostream>`
+`using namespace std;`
+
+`int main() {`
+`    cout << "Ini baris pertama.\nIni baris kedua." << endl;`
+`    cout << "Ini baris ketiga.\n";`
+`    return 0;`
+`}`
+
 
 yang kedua adalan `std::endl` adalah manipulator ouput yang, sleain menyisipkan karakter baris baru, juga secara ekspelsit buffer output.
 ini berarti data yang dibuffer segera ditulis ke perangkat ouput (minyalnya, layar konsol).
