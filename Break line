@@ -19,11 +19,10 @@ contoh dari `\n` :
 `}`
 
 `#include <iostream>`
-`using namespace std;`
 
 `int main() {`
-`    cout << "Ini baris pertama.\nIni baris kedua." << endl;`
-`    cout << "Ini baris ketiga.\n";`
+`    std::cout << "Ini baris pertama. << '\n' << "Ini baris kedua." << endl;`
+`    std::cout << "Ini baris ketiga." << '\n';`
 `    return 0;`
 `}`
 
