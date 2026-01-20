@@ -19,6 +19,13 @@ didalam pemrograman
 `      return 0;`
 `  }`
 
+`#include <iostream>`
+
+`int main() {`
+`  std::cout << "Hello, World!" << '\n';`
+`  return 0;`
+`}`
+
 `#include` `<iostream>` berfungsi untuk menghubungkan program dengan library input-output standar.
 
 `int` `main()` adalah titik masuk atau gerbang utama program, setiap program harus memiliki satu fungsi `main`.
