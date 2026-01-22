@@ -25,19 +25,19 @@ int main()
 
     switch (op)
     {
-    case '+':
+    case 1:
         result = num1 + num2;
         std::cout << "hasilnya adalah " << result << '\n';
         break;
-    case '-':
+    case 2:
         result = num1 - num2;
         std::cout << "hasilnya adalah " << result << '\n';
         break;
-    case '*':
+    case 3:
         result = num1 * num2;
         std::cout << "hasilnya adalah " << result << '\n';
         break;
-    case '/':
+    case 4:
         result = num1 / num2;
         std::cout << "hasilnya adalah " << result << '\n';
         break;
