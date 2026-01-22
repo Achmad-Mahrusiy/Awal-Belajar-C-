@@ -9,7 +9,12 @@ int main()
 
     std::cout << "============Calculator============\n";
 
-    std::cout << "Masukkan opsi (+, -, *, /): ";
+    std::cout << "Opsi kalkulator\n";
+    std::cout << "1. penjumlahan( + ).\n";
+    std::cout << "2. pengurangan( - ).\n";
+    std::cout << "3. perkalian( * ).\n";
+    std::cout << "4. pembagian( / ).\n";
+    std::cout << "Masukkan opsi (1 - 4): ";
     std::cin >> op;
 
     std::cout << "Masukkan angka pertama: ";
