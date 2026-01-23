@@ -25,8 +25,10 @@ int main()
     std::cout << "Masukkan angka kedua: ";
     std::cin >> num2;
 
-    std::cout << "Masukkan angka kedua: ";
+    std::cout << "Masukkan angka ke-tiga: ";
     std::cin >> num3;
+
+    std::cout << "Masukkan angka ke-empat: ";
 
 
     switch (op)
