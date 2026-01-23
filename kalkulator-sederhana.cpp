@@ -29,6 +29,8 @@ int main()
     std::cin >> num3;
 
     std::cout << "Masukkan angka ke-empat: ";
+    std::cin >> num4;
+    
 
 
     switch (op)
