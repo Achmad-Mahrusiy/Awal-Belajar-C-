@@ -36,11 +36,11 @@ int main()
     switch (op)
     {
     case 1:
-        result = num1 + num2 + num3;
+        result = num1 + num2 + num3 + num4;
         std::cout << "hasilnya adalah " << result << '\n';
         break;
     case 2:
-        result = num1 - num2 - num3;
+        result = num1 - num2 - num3 - num4;
         std::cout << "hasilnya adalah " << result << '\n';
         break;
     case 3:
