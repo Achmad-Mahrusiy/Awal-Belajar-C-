@@ -48,7 +48,7 @@ int main()
         std::cout << "hasilnya adalah " << result << '\n';
         break;
     case 4:
-        result = num1 / num2 / num3;
+        result = num1 / num2 / num3 / num4;
         std::cout << "hasilnya adalah " << result << '\n';
         break;
     default:
