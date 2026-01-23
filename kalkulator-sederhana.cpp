@@ -6,6 +6,7 @@ int main()
     double num1;
     double num2;
     double num3;
+    double num4;
     double result;
 
     std::cout << "============Calculator============\n";
