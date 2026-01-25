@@ -37,4 +37,4 @@ tanda kurung kurawal `{` dan `}` atau disebut block of code, segala sesuatu di d
 
 yang terakhir `using namespace std;` digunakan agar kita tidak perlu menulis awalan `std::` berulang-ulang pada setiap perintah input-output.
 ini membuat kode terlihat lebih ringkas, meskipun pada proyek besar profesional, 
-penggunaan `std::` secara langsung disarankan untuk menghindari bentrok nama fungsi
+penggunaan `std::` secara langsung disarankan untuk menghindari bentrok nama fungsi.
