@@ -9,8 +9,8 @@ int main()
     double luas = Luas(sisi);
     double Keliling = keliling(sisi);
 
-    std::cout << "Keliling persegi panjang adalah: " << Keliling << " cm. \n";
-    std::cout << "Luas persegi panjang adalah: " << luas << " cm^2. \n";
+    std::cout << "Keliling persegi adalah: " << Keliling << " cm. \n";
+    std::cout << "Luas persegi adalah: " << luas << " cm^2. \n";
 
     return 0;
 }
