@@ -135,3 +135,6 @@ int main()
 
     return 0;
 }
+
+
+/*ekspetasi tidak sesuai dengan realita*/
