@@ -139,3 +139,4 @@ int main()
 
 /*ekspetasi tidak sesuai dengan realita,
 gini nih kalo hidup kebanyakan makan harapan palsu*/
+/*Terkadang seseorang yang jita butuhkan itu tidak sesuai dengan kebutuhan kita*/
