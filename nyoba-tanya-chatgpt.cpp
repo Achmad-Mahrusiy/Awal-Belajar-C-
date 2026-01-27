@@ -137,4 +137,5 @@ int main()
 }
 
 
-/*ekspetasi tidak sesuai dengan realita*/
+/*ekspetasi tidak sesuai dengan realita,
+gini nih kalo hidup kebanyakan makan harapan palsu*/
