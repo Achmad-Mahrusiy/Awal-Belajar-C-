@@ -51,3 +51,5 @@ contoh std::cout;
 `    std::cout << "Ini baris baru dengan endl." << endl;`
 `    return 0;`
 `}`
+
+/*ya beginilah hidup*/
