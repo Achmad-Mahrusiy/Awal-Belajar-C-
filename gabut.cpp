@@ -55,4 +55,4 @@ double Luas(double sisi)
 keliling persegi panjang (s + s + s + s)*/
 
 
-//Gabut banget anjr
+/*Gabut banget anjr, ya beginilah hidup bro!*/
