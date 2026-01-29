@@ -53,3 +53,6 @@ double Luas(double sisi)
 
 /*luas persegi (L = s x s)
 keliling persegi panjang (s + s + s + s)*/
+
+
+//Gabut banget anjr
