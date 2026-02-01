@@ -23,6 +23,13 @@ int main()
         std::cout << "Masukkan menu yang anda pilih: ";
         std::cin >> pilihan;
 
+        if (std::cin.fail())
+        {
+            std::cin.clear();
+            std::cin.ignore(10000, '\n');
+            pilihan = 0;
+        }
+
         switch (pilihan)
         {
         case 1:
@@ -40,7 +47,7 @@ int main()
             std::cout << "Terima Kasih sudah menggunakan aplikasi ini!\n";
             break;
         default:
-            std::cout << "Invalid Input!\n";
+            std::cout << "\nInvalid Input!\n";
         }
     } while (pilihan != 4);
 
@@ -91,6 +98,6 @@ double withdraw(double saldo)
     }
     else
     {
-        return isi;        
+        return isi;
     }
 }
