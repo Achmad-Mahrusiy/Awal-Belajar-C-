@@ -130,4 +130,6 @@ void lihat_pemenang(char pemain, char komputer)
         }
         break;
     }
+
+    //ya beginilah hidup
 }
