@@ -100,4 +100,5 @@ double withdraw(double saldo)
     {
         return isi;
     }
+    //hidup ini lelah kalo sendirian
 }
