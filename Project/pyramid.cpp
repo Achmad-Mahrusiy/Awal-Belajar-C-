@@ -10,7 +10,7 @@ int main() {
             std::cout << " ";
         }
         for (int k = 1; k <= 2 * i - 1; k++) {
-            std::cout << "#";
+            std::cout << "l";
         }
 
         std::cout << std::endl;
