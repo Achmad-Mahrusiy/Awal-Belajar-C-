@@ -40,4 +40,7 @@ void prodi(std::string jurusan, int angkatan)
     std::cout << "3. Informatika\n";
     std::cout << "Masukkan Prodi yang anda pilih: ";
     std::cin >> jurusan;
+
+    std::cout << "anda dari angkatan tahun berapa?: ";
+    std::cin >> angkatan;
 }
