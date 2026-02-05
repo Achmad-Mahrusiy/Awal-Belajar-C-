@@ -1,12 +1,12 @@
 #include <iostream>
 
 void login(std::string username);
-void prodi(std::string jurusan, int angkatan);
+void prodi(int jurusan, int angkatan);
 
 int main()
 {
     std::string username;
-    std::string jurusan;
+    int jurusan;
     int angkatan;
 
     login(username);
@@ -32,7 +32,7 @@ void login(std::string username)
     std::cout << username << " Selamat Datang " << "di Fakultas Ilmu Komputer\n\n";
 }
 
-void prodi(std::string jurusan, int angkatan)
+void prodi(int jurusan, int angkatan)
 {
     std::cout << "Silahkan memilih Program Studi yang ada Di Fakultas Ilmu Komputer\n";
     std::cout << "1. Sistem Informasi\n";
@@ -41,6 +41,22 @@ void prodi(std::string jurusan, int angkatan)
     std::cout << "Masukkan Prodi yang anda pilih: ";
     std::cin >> jurusan;
 
-    std::cout << "anda dari angkatan tahun berapa?: ";
-    std::cin >> angkatan;
+    do
+    {
+        switch (jurusan)
+        {
+        case 1:
+            std::cout << "Selamat datang di Sistem Informasi\n";
+            break;
+        case 2:
+            std::cout << "Selamat datang di Teknologi Informasi\n";
+            break;
+        case 3:
+            std::cout << "Selamat datang di Informatika\n";
+            break;
+        default:
+            std::cout << "Masukkan Prodi yang sudah tertera!\n";
+            break;
+        }
+    } while (jurusan < 0 && jurusan > 3);
 }
