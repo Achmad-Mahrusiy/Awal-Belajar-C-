@@ -4,7 +4,7 @@
 int main()
 {
     srand(time(0));
-    int randNum = rand() % 4 + 1;
+    int randNum = rand() % 5 + 1;
 
     switch (randNum)
     {
@@ -19,6 +19,9 @@ int main()
         break;
     case 4:
         std::cout << "19 juta lapangan pekerjaan";
+        break;
+    case 5:
+        std::cout << "Beginilah Hidup";
         break;
     }
     return 0;
