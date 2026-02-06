@@ -24,3 +24,5 @@ double Total(double harga[], int ukuran)
 
     return total;
 }
+
+//kadang hidup biasa aja
