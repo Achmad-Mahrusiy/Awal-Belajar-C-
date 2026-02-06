@@ -9,19 +9,19 @@ int main()
     switch (randNum)
     {
     case 1:
-        std::cout << "Beginilah hidup bro!";
+        std::cout << "Beginilah hidup bro!\n";
         break;
     case 2:
-        std::cout << "When yah";
+        std::cout << "When yah\n";
         break;
     case 3:
-        std::cout << "SAWIT SAWIT SAWIT!!!";
+        std::cout << "SAWIT SAWIT SAWIT!!!\n";
         break;
     case 4:
-        std::cout << "19 juta lapangan pekerjaan";
+        std::cout << "19 juta lapangan pekerjaan\n";
         break;
     case 5:
-        std::cout << "Beginilah Hidup";
+        std::cout << "Beginilah Hidup\n";
         break;
     }
     return 0;
