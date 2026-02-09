@@ -26,3 +26,6 @@ int main()
     }
     return 0;
 }
+
+
+/*ya itulah wok pokoknya itu lah wok*/
