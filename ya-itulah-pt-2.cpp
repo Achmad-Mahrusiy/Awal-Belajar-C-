@@ -28,4 +28,4 @@ int main()
 }
 
 
-/*ya itulah wok pokoknya itu lah wok*/
+/*ya itulah wok pokoknya itu lah part 2 wok*/
