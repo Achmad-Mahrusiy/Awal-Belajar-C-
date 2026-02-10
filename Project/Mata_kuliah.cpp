@@ -248,7 +248,7 @@ void prodi(int jurusan, int angkatan)
                 std::cout << "Selamat datang di Informatika angkatan " << angkatan << '\n';
                 break;
             }
-            else if (angkatan < 2024)
+            else if (angkatan == 2023 || angkatan == 2022)
             {
                 std::cout << "Welcome back mahasiswa old";
             }
