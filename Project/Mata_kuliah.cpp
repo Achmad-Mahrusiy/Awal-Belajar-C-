@@ -225,7 +225,7 @@ void prodi(int jurusan, int angkatan)
                 std::cout << "20. Jaringan Nirkabel.\n";
                 std::cout << "21. Pengelolaan Citra dan Visi Komputer.\n";
                 std::cout << "22. Cyber Security.\n";
-                std::cout << "23. SIstem Informasi Geografis.\n";                
+                std::cout << "23. Sistem Informasi Geografis.\n";
             }
             else if (angkatan == 2021)
             {
@@ -238,17 +238,71 @@ void prodi(int jurusan, int angkatan)
             }
             break;
         case 3:
+            std::cout << "anda mahasiswa angkatan berapa: ";
+            std::cin >> angkatan;
             if (angkatan == 2025)
             {
-                std::cout << "Selamat datang mahasiswa baru " << angkatan << '\n';
+                std::cout << "\nSelamat datang mahasiswa baru " << angkatan << '\n';
+                std::cout << "\nBerikut Mata Kuliah yang keluar di semester 2 di Informatika: \n";
+                std::cout << "1. Bahasa Indonesia.\n";
+                std::cout << "1. Matematika Diskrit.\n";
+                std::cout << "2. Algoritma dan Pemograman.\n";
+                std::cout << "3. Jaringan Komputer.\n";
+                std::cout << "4. Sistem Basis Data.\n";
+                std::cout << "5. Statistika.\n";
+                std::cout << "6. Teori Graf.\n";
+                std::cout << "7. Teori Bahasa dan Otomata.\n";
+                std::cout << "8. Struktur Data.\n";
                 break;
             }
             else if (angkatan == 2024)
             {
-                std::cout << "Selamat datang di Informatika angkatan " << angkatan << '\n';
+                std::cout << "\nSelamat datang di Informatika angkatan " << angkatan << '\n';
+                std::cout << "\nBerikut Mata Kuliah yang keluar di semester 4 di Informatika: \n";
+                std::cout << "1. Manajemen dan Kewirausahaan.\n";
+                std::cout << "2. Sistem Operasi.\n";
+                std::cout << "3. Riset Operasi.\n";
+                std::cout << "4. Pembelajaran Mesin.\n";
+                std::cout << "5. Parallel Computing.\n";
+                std::cout << "6. Jaringan Syarat Tiruan.\n";
+                std::cout << "7. Implementasi dan Pengujian Perangkat Lunak.\n";
+                std::cout << "8. Pemograman Berbasis Mobile.\n";
+                std::cout << "9. Desain dan Analisis Algoritma.\n";
+
+                std::cout << "\nBerikut Mata Kuliah Pilihan yang boleh diambil untuk semester 3 ke atas: \n";
+                std::cout << "1. Deep Learning.\n";
+                std::cout << "2. Information Retrieval.\n";
+                std::cout << "3. Data Visualization.\n";
+                std::cout << "4. Pengelolahan Citra Digital.\n";
+                std::cout << "5. Forensik Digital.\n";
+                std::cout << "6. Sistem Pakar.\n";
+                std::cout << "7. Game Intelligence.\n";
+                std::cout << "8. Algoritma Evolusi.\n";
+                std::cout << "9. Pemodelan dan Simulasi.\n";
+                std::cout << "10. Pemrosesan Bahasa alami.\n";
+                std::cout << "11. Computer Vision.\n";
+                std::cout << "12. Speech Processing.\n";
+                std::cout << "13. Requirement Engineering.\n";
+                std::cout << "14. Software Construction.\n";
+                std::cout << "15. Software Quality.\n";
+                std::cout << "16. Manajemen Resiko TI.\n";
+                std::cout << "17. Design Pattern.\n";
+                std::cout << "18. Game Design dan Development.\n";
+                std::cout << "19. Teknologi Imersi.\n";
+                std::cout << "20. Sistem Informasi Geografis.\n";
+                std::cout << "21. Penginderaan jauh dalan Agroindustri.\n";
+                std::cout << "22. Kriptografi Modern.\n";
+                std::cout << "23. Aplikasi Teori Graf.\n";
+                std::cout << "24. Basis Data Graf.\n";
+                std::cout << "25. Pemrosesan sinyal.\n";
+                std::cout << "26. Geoinformatika.\n";
+                std::cout << "27. Ekoinformatika.\n";
+                std::cout << "28. Bioinformatika.\n";
+                std::cout << "29. Graf Pengetahuan.\n";
+                std::cout << "30. Quantum Computing.\n";
                 break;
             }
-            else if (angkatan == 2023 || angkatan == 2022)
+            else if (angkatan < 2024)
             {
                 std::cout << "Welcome back mahasiswa old";
             }
