@@ -30,3 +30,5 @@ int main()
 
 /*ya itulah wok pokoknya itu lah part 2 wok*/
 //beginilah ya itu lah wok
+
+//Gajelas Banget Pembuatnya
