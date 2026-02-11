@@ -343,7 +343,8 @@ void prodi(int jurusan, int angkatan)
                 std::cout << "29. Graf Pengetahuan.\n";
                 std::cout << "30. Quantum Computing.\n";
             }
-            else if(angkatan == 2022){
+            else if (angkatan == 2022)
+            {
                 std::cout << "\nSelamat datang Mahasiswa angkatan " << angkatan << " di Informatika.\n";
                 std::cout << "\nBerikut Mata Kuliah Wajib dan Pilihan Untuk Semester 7 keatas: \n";
 
@@ -384,8 +385,10 @@ void prodi(int jurusan, int angkatan)
                 std::cout << "29. Graf Pengetahuan.\n";
                 std::cout << "30. Quantum Computing.\n";
             }
-            else if (angkatan == 2021){
-                std::cout << "";
+            else if (angkatan == 2021)
+            {
+                std::cout << "\nJadi Mau Kapan Lulusnya bro??\n";
+                std::cout << "Atau Sudah lulus sekarang?\n";
             }
             else
             {
