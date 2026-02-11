@@ -202,7 +202,7 @@ void prodi(int jurusan, int angkatan)
                 std::cout << "2. KKN (Kuliah Kerja Nyata).\n";
                 std::cout << "3. Skripsi.\n";
 
-                std::cout << "Mata Kuliah Pilihan: \n";
+                std::cout << "\nMata Kuliah Pilihan: \n";
                 std::cout << "1. Digital Forensik.\n";
                 std::cout << "2. Basis Data Terdistribusi.\n";
                 std::cout << "3. Pola-Pola Perancangan.\n";
@@ -302,9 +302,90 @@ void prodi(int jurusan, int angkatan)
                 std::cout << "30. Quantum Computing.\n";
                 break;
             }
-            else if (angkatan == 2023 || angkatan == 2022)
+            else if (angkatan == 2023)
             {
-                std::cout << "Welcome back mahasiswa old";
+                std::cout << "\nSelamat datang Mahasiswa angkatan " << angkatan << " di Informatika.\n";
+                std::cout << "\nBerikut Mata Kuliah Wajib dan Pilihan khusus Untuk Semester 6 di Informatika: \n";
+
+                std::cout << "\nMata Kuliah Wajib: \n";
+                std::cout << "1. Metodologi Penelitian dan Proposal 1.\n";
+                std::cout << "2. Metodologi Penelitian dan Proposal 2.\n";
+
+                std::cout << "\nMata Kuliah Pilihan: \n";
+                std::cout << "1. Deep Learning.\n";
+                std::cout << "2. Information Retrieval.\n";
+                std::cout << "3. Data Visualization.\n";
+                std::cout << "4. Pengelolahan Citra Digital.\n";
+                std::cout << "5. Forensik Digital.\n";
+                std::cout << "6. Sistem Pakar.\n";
+                std::cout << "7. Game Intelligence.\n";
+                std::cout << "8. Algoritma Evolusi.\n";
+                std::cout << "9. Pemodelan dan Simulasi.\n";
+                std::cout << "10. Pemrosesan Bahasa alami.\n";
+                std::cout << "11. Computer Vision.\n";
+                std::cout << "12. Speech Processing.\n";
+                std::cout << "13. Requirement Engineering.\n";
+                std::cout << "14. Software Construction.\n";
+                std::cout << "15. Software Quality.\n";
+                std::cout << "16. Manajemen Resiko TI.\n";
+                std::cout << "17. Design Pattern.\n";
+                std::cout << "18. Game Design dan Development.\n";
+                std::cout << "19. Teknologi Imersi.\n";
+                std::cout << "20. Sistem Informasi Geografis.\n";
+                std::cout << "21. Penginderaan jauh dalan Agroindustri.\n";
+                std::cout << "22. Kriptografi Modern.\n";
+                std::cout << "23. Aplikasi Teori Graf.\n";
+                std::cout << "24. Basis Data Graf.\n";
+                std::cout << "25. Pemrosesan sinyal.\n";
+                std::cout << "26. Geoinformatika.\n";
+                std::cout << "27. Ekoinformatika.\n";
+                std::cout << "28. Bioinformatika.\n";
+                std::cout << "29. Graf Pengetahuan.\n";
+                std::cout << "30. Quantum Computing.\n";
+            }
+            else if(angkatan == 2022){
+                std::cout << "\nSelamat datang Mahasiswa angkatan " << angkatan << " di Informatika.\n";
+                std::cout << "\nBerikut Mata Kuliah Wajib dan Pilihan Untuk Semester 7 keatas: \n";
+
+                std::cout << "\nMata Kuliah Wajib: \n";
+                std::cout << "1. Praktek kerja Lapangan.\n";
+                std::cout << "2. KKN (Kuliah Kerja Nyata).\n";
+                std::cout << "3. Skripsi.\n";
+
+                std::cout << "\nMata Kuliah Pilihan: \n";
+                std::cout << "1. Deep Learning.\n";
+                std::cout << "2. Information Retrieval.\n";
+                std::cout << "3. Data Visualization.\n";
+                std::cout << "4. Pengelolahan Citra Digital.\n";
+                std::cout << "5. Forensik Digital.\n";
+                std::cout << "6. Sistem Pakar.\n";
+                std::cout << "7. Game Intelligence.\n";
+                std::cout << "8. Algoritma Evolusi.\n";
+                std::cout << "9. Pemodelan dan Simulasi.\n";
+                std::cout << "10. Pemrosesan Bahasa alami.\n";
+                std::cout << "11. Computer Vision.\n";
+                std::cout << "12. Speech Processing.\n";
+                std::cout << "13. Requirement Engineering.\n";
+                std::cout << "14. Software Construction.\n";
+                std::cout << "15. Software Quality.\n";
+                std::cout << "16. Manajemen Resiko TI.\n";
+                std::cout << "17. Design Pattern.\n";
+                std::cout << "18. Game Design dan Development.\n";
+                std::cout << "19. Teknologi Imersi.\n";
+                std::cout << "20. Sistem Informasi Geografis.\n";
+                std::cout << "21. Penginderaan jauh dalan Agroindustri.\n";
+                std::cout << "22. Kriptografi Modern.\n";
+                std::cout << "23. Aplikasi Teori Graf.\n";
+                std::cout << "24. Basis Data Graf.\n";
+                std::cout << "25. Pemrosesan sinyal.\n";
+                std::cout << "26. Geoinformatika.\n";
+                std::cout << "27. Ekoinformatika.\n";
+                std::cout << "28. Bioinformatika.\n";
+                std::cout << "29. Graf Pengetahuan.\n";
+                std::cout << "30. Quantum Computing.\n";
+            }
+            else if (angkatan == 2021){
+                std::cout << "";
             }
             else
             {
